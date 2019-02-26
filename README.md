@@ -1,7 +1,7 @@
 Repro steps
 
 1. `sfdx force:auth:web:login -a v44.16.0`
-1. When the salesforce login page pops up, log in with usernae: `aleong@0205dev.org` and pw: `test1234`
+1. When the salesforce login page pops up, log in with username: `aleong@0205dev.org` and pw: `test1234`
 1. `sfdx force:org:list`
 1. See that an entry in the orgs list appears with Alias=v44.16.0, Username=aleong@0205dev.org OrgId=00D... ConnectedStatus=Connected
 1. Clone this repo
