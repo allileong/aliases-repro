@@ -12,4 +12,4 @@ Expected: The index.js file is hardcoded to fetch the username for `v44.16.0`, a
 
 Actual: `undefined` is returned instead.
 
-If I change the hardcoded alias to an alias not containing a period character, then it fetches the expected username.
+If I change index.js to fetch the username for an alias that does not contain the period ('.') character, then I get back the username I expect. 
